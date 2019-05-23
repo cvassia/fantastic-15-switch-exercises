@@ -6,53 +6,55 @@
 // Example: analyzeColor("Red") -> "Red is a primary color".
 
 let color = "orange";
+let whatIsTheColor;
 
 switch (color) {
   case "red":
-    color = "Red is the best color";
+    whatIsTheColor = "Red is the best color";
     break;
   case "green":
-    color = "Green is a secondary color";
+    whatIsTheColor = "Green is a secondary color";
     break;
   case "blue":
-    color = "Blue is a primary color";
+    whatIsTheColor = "Blue is a primary color";
     break;
   case "yellow":
-    color =
+    whatIsTheColor =
       "Yellow is the color between orange and green on the spectrum of visible light";
     break;
   default:
-    color = "That's a nice color";
+    whatIsTheColor = "That's a nice color";
 }
 
-console.log(color);
+console.log(whatIsTheColor);
 
 // 2. Grading
 // Create a function that takes a grade in its parameters. Console log comments depending on the grade.
 // Example: grade("A") -> "Good job!", grade("F") -> "Failed"
 
 let grade = "F";
+let result;
 
 switch (grade) {
   case "A":
-    grade = "Very good job!";
+    result = "Very good job!";
     break;
   case "B":
-    grade = "Good Job";
+    result = "Good Job";
     break;
   case "C":
-    grade = "You could study a little more";
+    result = "You could study a little more";
     break;
   case "D":
-    grade = "Concentrate on studying";
+    result = "Concentrate on studying";
     break;
   case "E":
-    grade = "Stop watching TV";
+    result = "Stop watching TV";
     break;
   case "F":
-    grade = "We have to talk";
+    result = "We have to talk";
 }
-console.log(grade);
+console.log(result);
 
 // 3. What month is it?
 // Create a function using the new Date().getMonth() method and switch case in order to return the month of the year. Return "It's the month of May!"
