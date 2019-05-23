@@ -58,6 +58,7 @@ console.log(grade);
 // Create a function using the new Date().getMonth() method and switch case in order to return the month of the year. Return "It's the month of May!"
 
 let WhatIsTheMonth = new Date().getMonth() + 1;
+let month;
 
 switch (WhatIsTheMonth) {
   case 1:
